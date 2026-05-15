@@ -14,11 +14,11 @@
     --bg-secondary: #0a2348;
     --bg-card: rgba(12, 32, 66, 0.85);
     --primary: #00c2ff;
-    --primary-glow:;
+    --primary-glow: #3fd7ff;
     --text-main: #ffffff;
     --text-muted: #b7c9e6;
     --border: rgba(255,255,255,0.08);
-    --shadow: 0 10px 40px rgba(0, 194, 255, 0.15);
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 }
 
 /* Reset */
@@ -49,7 +49,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     padding: 1.5rem 8%;
     border-bottom: 1px solid var(--border);
     backdrop-filter: blur(10px);
@@ -64,7 +64,7 @@ header h1 {
     font-weight: 700;
     color: var(--primary);
     letter-spacing: 1px;
-    text-shadow: 0 0 12px rgba(0,194,255,0.4);
+    
 }
 
 nav {
@@ -142,13 +142,13 @@ button {
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 20px rgba(0,194,255,0.25);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
 }
 
 .button:hover,
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0,194,255,0.45);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.22);
 }
 
 /* =========================
@@ -172,7 +172,7 @@ button:hover {
 .game-card:hover {
     transform: translateY(-5px);
     border-color: rgba(0,194,255,0.4);
-    box-shadow: 0 10px 30px rgba(0,194,255,0.18);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
 }
 
 .game-card h3 {
