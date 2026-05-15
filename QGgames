@@ -3,14 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QGames</title>
-    <meta name="description" content="Description of your QGames project">
+    <meta name="description" content="QGames - Your premium gaming experience">
+    <meta name="theme-color" content="#1a1a1a">
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="QGames">
+    <meta property="og:description" content="Your premium gaming experience">
+    <meta property="og:type" content="website">
+    
+    <title>QGames - Gaming Platform</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Welcome to QGames</h1>
-    <p>Your game content here</p>
-    
-    <script src="script.js"></script>
+    <header>
+        <h1>Welcome to QGames</h1>
+        <nav>
+            <!-- Add navigation links here -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="games">
+            <h2>Featured Games</h2>
+            <p>Your game content here</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 QGames. All rights reserved.</p>
+    </footer>
+
+    <noscript>
+        <p>This website requires JavaScript to be enabled.</p>
+    </noscript>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
