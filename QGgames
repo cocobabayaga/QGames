@@ -35,8 +35,8 @@
             <h2>Featured Games</h2>
             <p>Your game content here</p>
             <a href="https://elvissomers.github.io/IsingModelGame/" 
-               target="_blank" 
-               class="game-button">
+                target="_blank" 
+                class="game-button">
                 Play Ising Model Game
             </a>
         </section>
